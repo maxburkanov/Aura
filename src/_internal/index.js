@@ -20,7 +20,7 @@ function App() {
   const store = init(reducers);
 
   return (
-    <Provider store={store}>
+    <Provider store={ store }>
       <BrowserRouter>
         <Routes routes={routes} />
       </BrowserRouter>
